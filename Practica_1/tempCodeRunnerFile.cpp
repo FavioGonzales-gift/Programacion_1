@@ -1,0 +1,1 @@
+grese un número (0 para salir): ";
