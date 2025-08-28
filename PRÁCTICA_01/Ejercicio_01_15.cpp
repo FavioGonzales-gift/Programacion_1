@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
     // Pedir numero de notas a promediar
-    float nota = 0, suma = 0, promedio = 0;
+    float nota = 0, suma_notas = 0, promedio_notas = 0;
     int numero_notas = 0;
     cout << "Ingrese el numero de notas a promediar: ";
     cin >> numero_notas;
@@ -21,10 +21,10 @@ int main()
     {
         cout << "Ingrese la nota " << i <<": ";
         cin >> nota;
-        suma = suma + nota;
+        suma_notas = suma_notas + nota;
     }
 
-    promedio = suma / numero_notas;
-    cout << "El promedio es: " << promedio;
+    promedio_notas = suma_notas / numero_notas;
+    cout << "El promedio es: " << promedio_notas;
     
 }
